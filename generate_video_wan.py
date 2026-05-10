@@ -14,9 +14,9 @@ import websocket
 COMFY_URL = "http://127.0.0.1:8188"
 WS_URL = "ws://127.0.0.1:8188/ws"
 
-DIFFUSION_MODEL = "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors"
+DIFFUSION_MODEL = "Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors"
 TEXT_ENCODER = "umt5-xxl-enc-bf16.safetensors"
-CLIP_VISION = "clip_vision_h.safetensors"
+CLIP_VISION = "open-clip-vit-huge_fp16.safetensors"
 VAE_MODEL = "Wan2_1_VAE_bf16.safetensors"
 
 FRAMES = 81       # ~3.3s a 24fps
