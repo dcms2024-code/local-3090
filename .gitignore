@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+audio/
+output/
+stories/
+images/generated/
+video/
+*.mp4
+*.mp3
+*.srt
+*.log
+.env
